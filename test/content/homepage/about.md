@@ -1,5 +1,5 @@
 ---
-title: 'Our Difference'
+title: 'Spotlight'
 weight: 2
 background: ''
 button: 'About Us'
