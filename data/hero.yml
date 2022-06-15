@@ -1,0 +1,13 @@
+---
+enable: true
+# topTitle: Hello, I am Natasha
+content: >
+  # Aerospace Systems Design Laboratory
+
+  We are educational leaders in advanced systems architecting, engineering, design, 
+  integration and operations, decision making, digital engineering, data and visual analytics.
+buttonName: Learn more
+buttonURL: contact
+image: images/hero/vision2reality.gif
+# videoThumb: images/hero/vision2reality.gif
+# videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ

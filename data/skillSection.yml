@@ -1,0 +1,21 @@
+---
+enable: true
+topTitle: By the Numbers
+content: >
+  ## ASDL Breakdown
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+image: images/skill/4season3.jpg
+
+skill:
+  - title: Divisions
+    percent: 7
+  - title: Branches
+    percent: 40
+  - title: Research Engineers
+    percent: 50
+  - title: Undergraduates
+    percent: 120
+  - title: Masters & PhD Students
+    percent: 200

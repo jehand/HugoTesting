@@ -1,0 +1,73 @@
+---
+enable: true
+topTitle: News and Events
+title: >
+  ## News and Events
+
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+
+
+  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
+tab1Name: News
+tab2Name: Upcoming Events
+tab1Target: education
+tab2Target: experience
+
+education:
+  - content: >
+      #### ASDL PhD Student Selected for Fellowships
+
+      ASDL PhD student Christopher Roper was recently selected for two fellowships. He has received a fellowship from the Atlanta Chapter of Advancing Science in America (ARCS) Fellowship as well as the PhD GEM Fellowship, sponsored by Los Alamos National Laboratory.
+    time: 09-28-2021
+  - content: >
+      #### Congratulations to the ASDL Students that Passed the Ph.D. Qualifying Examinations for Fall 2021!
+
+      ASDL is proud to announce that the following AE students in our lab have passed the PhD qualifying examinations:
+
+
+      Fahraan A Badruddin
+
+
+      Matthew L Gilmartin
+
+
+      Joao Henrique A De Azevedo
+    time: 9/27/2021
+  - content: >
+      #### DBF Team Takes Top Prize in SAE Competition
+
+      Congrats to the Georgia Tech Design Build Fly Team, which won first place first overall in both the Micro Class and Advanced Class at the recent SAE Aero Design competition.
+
+
+      Design Build Fly is a student organization focused on creating novel remote controlled aircraft to compete in SAE Aero Design and AIAA Design Build Fly competitions. Over the course of the year, the DBF Team designs, analyzes, prototypes, and flies numerous aircraft for a given competition. For more information about the DBF activity, visit https://dbf.gtorg.gatech.edu/. Click here to read the full story.
+    time: 8/17/2021
+  - content: >
+      #### ASDL Instrumental in Kendeda Building Certification
+
+      Georgia Tech recently announced that the Kendeda Building for Innovative Sustainable Design has earned Living Building Challenge certification, the world’s most ambitious and holistic green building achievement. The certification from the International Living Future Institute independently verifies that the Kendeda Building is among the greenest in the world. For more information about this achievement click here.
+
+
+      ASDL had a team of researchers helping ensure that Kendeda would meet certification. For more than two years during the project, our researchers were embedded with the building’s design team, supporting data analysis and scenario modeling throughout construction and the building’s commissioning.
+    time: 2008-2010
+
+experience:
+  - content: >
+      #### Upcoming Event 1
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time: 3/30/2023
+  - content: >
+      #### Upcoming Event 2
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time: 3/30/2024
+  - content: >
+      #### Upcoming Event 3
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time: 3/30/2025
+  - content: >
+      ### Upcoming Event 4
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time: 3/30/2026

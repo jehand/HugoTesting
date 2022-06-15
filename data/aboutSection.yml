@@ -1,0 +1,16 @@
+---
+enable: true
+topTitle: About
+title: >
+  ## About Us
+
+  From state-of-the-art facilities to a legacy of leadership in analysis and design of complex systems and decision making. ASDL has the resources and experience to tackle real world problems for the benefit of its sponsors and its students. Learn more about how ASDL has become a leader in systems engineering research.
+content: >
+  ### Mission Statement
+
+  Formulate, develop, and implement comprehensive approaches to the design of affordable and high quality complex systems.
+button1Name: Learn More
+button2Name: Program Overview
+button1Target: contact
+button2Target: contact
+image: images/about/about_ASDL.png

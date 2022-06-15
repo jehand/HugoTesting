@@ -1,0 +1,246 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+paginate = 6
+theme = "portio"
+title = "Aeropsace Systems Design Laboratory"
+
+# Main Menu
+[[menu.main]]
+identifier = "news"
+name = "News"
+url = "#news"
+weight = 1
+
+[[menu.main]]
+name = "Research"
+identifier = "research"
+url = "#research"
+weight = 2
+
+[[menu.main]]
+    parent = "research"
+    identifier = "advanced_configurations"
+    name = "Advanced Configurations"
+    url = "/services/advanced_configurations"
+    weight = 1
+
+[[menu.main]]
+    parent = "research"
+    identifier = "advanced_methods"
+    name = "Advanced Methods"
+    url = "/services/advanced_methods"
+    weight = 2
+
+[[menu.main]]
+    parent = "research"
+    identifier = "civil_aviation"
+    name = "Civil Aviation"
+    url = "/services/civil_aviation_research"
+    weight = 3
+
+[[menu.main]]
+    parent = "research"
+    identifier = "defense_space"
+    name = "Defense & Space"
+    url = "/services/defense_space"
+    weight = 4
+
+    [[menu.main]]
+    parent = "research"
+    identifier = "digital_engineering"
+    name = "Digital Engineering"
+    url = "/services/digital_engineering"
+    weight = 5
+
+[[menu.main]]
+    parent = "research"
+    identifier = "propulsion_energy"
+    name = "Propulsion & Energy"
+    url = "/services/propulsion_energy"
+    weight = 6
+
+[[menu.main]]
+name = "Publications"
+url = "#publications"
+weight = 3
+
+[[menu.main]]
+name = "Academics"
+identifier = "academics"
+url = "#academics"
+weight = 4
+
+[[menu.main]]
+    parent = "academics"
+    identifier = "academic_mission"
+    name = "Academic Mission"
+    url = "/academics/academic_mission"
+    weight = 1
+
+[[menu.main]]
+    parent = "academics"
+    identifier = "master_science"
+    name = "Master of Science Program"
+    url = "/academics/master_science"
+    weight = 2
+
+[[menu.main]]
+    parent = "academics"
+    identifier = "doctor_philosophy"
+    name = "Doctor of Philosophy Program"
+    url = "/academics/doctor_philosophy"
+    weight = 3
+
+[[menu.main]]
+    parent = "academics"
+    identifier = "core_courses"
+    name = "Core Courses"
+    url = "/academics/core_courses"
+    weight = 4
+
+[[menu.main]]
+    parent = "academics"
+    identifier = "asdl_academy"
+    name = "ASDL Academy"
+    url = "/academics/asdl_academy"
+    weight = 5
+
+[[menu.main]]
+name = "People"
+identifier = "people"
+url = "#people"
+weight = 5
+
+[[menu.main]]
+    parent = "people"
+    identifier = "faculty"
+    name = "Faculty"
+    url = "/people/faculty"
+    weight = 1
+
+[[menu.main]]
+    parent = "people"
+    identifier = "administrative_staff"
+    name = "Administrative Staff"
+    url = "/people/administrative_staff"
+    weight = 2
+
+[[menu.main]]
+    parent = "people"
+    identifier = "students"
+    name = "Students"
+    url = "/people/students"
+    weight = 3
+
+[[menu.main]]
+name = "Facilities"
+identifier = "facilities"
+url = "#facilities"
+weight = 6
+
+[[menu.main]]
+    parent = "facilities"
+    identifier = "code"
+    name = "Colaborative Design Environment"
+    url = "/academics/code"
+    weight = 1
+
+[[menu.main]]
+    parent = "facilities"
+    identifier = "cove"
+    name = "Colaborative Visualization Environment"
+    url = "/academics/cove"
+    weight = 2
+
+[[menu.main]]
+    parent = "facilities"
+    identifier = "computational_resourcess"
+    name = "Computational Resources"
+    url = "/academics/computational_resourcess"
+    weight = 3
+
+[[menu.main]]
+    parent = "facilities"
+    identifier = "advanced_prototyping"
+    name = "Advanced Design Prototyping and Testing Lab"
+    url = "/academics/advanced_prototyping"
+    weight = 4
+
+[[menu.main]]
+    parent = "facilities"
+    identifier = "unmanned_shop"
+    name = "Unmanned Air Vehicle Shop"
+    url = "/academics/unmanned_shop"
+    weight = 5
+
+[[menu.main]]
+name = "About Us"
+url = "#about"
+weight = 7
+
+# [[menu.main]]
+# name = "Visitors"
+# url = "#visitors"
+# weight = 10
+
+# [[menu.main]]
+# name = "Intranet"
+# url = "#intranet"
+# weight = 11
+
+# Sitemap Menu
+[[menu.sitemap]]
+name = "Home"
+url = "about"
+weight = 1
+[[menu.sitemap]]
+name = "About"
+url = "#"
+weight = 2
+[[menu.sitemap]]
+name = "School of Aerospace Engineering"
+url = "#"
+weight = 3
+[[menu.sitemap]]
+name = "Georgia Tech Home"
+url = "#"
+weight = 4
+
+[params]
+blogPageURL = "blog"
+contactLink = "contact"
+copyright = "All right reserved copyright © ASDL 2022"
+footerLogo = "images/Official_Logo.svg"
+# formspreeURL = "YOUR FORMSPREE URL"
+# googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+logo = "images/Official_Logo.svg"
+
+[params.address]
+address = "Atlanta Georgia"
+email = "hello@example.com"
+openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+phone = "+(448) 833 5272 332"
+
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+latitude = "23.7783741"
+longitude = "90.3746808"
+pinImage = "images/pin.png"
+
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/"
+weight = 1
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/"
+weight = 2
+[[params.social]]
+icon = "fa-pinterest-square"
+url = "https://www.pinterest.com/"
+weight = 3
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/"
+weight = 4
