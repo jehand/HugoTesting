@@ -1,4 +1,4 @@
-baseURL = "https://hugotesting.github.io/"
+baseURL = "https://jehand.github.io/HugoTesting/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
