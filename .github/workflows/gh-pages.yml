@@ -7,9 +7,10 @@ on:
   pull_request:
 
 jobs:
-  defaults:
-    run:
-      working-directory: website
+  build:
+    defaults:
+      run:
+        working-directory: website
 
   deploy:
     runs-on: ubuntu-20.04
