@@ -6,12 +6,11 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
-jobs:
-  build:
-    defaults:
-      run:
-        working-directory: website
+defaults:
+  run:
+    working-directory: website
 
+jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
