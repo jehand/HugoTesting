@@ -1,14 +1,14 @@
 name: github pages
 
+defaults:
+  run:
+    working-directory: website
+
 on:
   push:
     branches:
       - main  # Set a branch to deploy
   pull_request:
-
-defaults:
-  run:
-    working-directory: website
 
 jobs:
   deploy:
